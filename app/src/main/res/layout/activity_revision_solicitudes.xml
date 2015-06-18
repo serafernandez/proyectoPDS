@@ -22,39 +22,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#000"
-            android:text="Menu del equipo"/>
+            android:text="Motivo"/>
 
-        <Button
-            android:layout_marginTop="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/accent"
-            android:text="Solicitar inscripción de equipo"
-            android:id="@+id/botonEnviarSolicitud"/>
-
-        <TextView
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#000"
-            android:text="Menu del torneo"
-            android:layout_marginTop="16dp"/>
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/motivoRechazo" />
+
+
 
         <Button
-            android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/accent"
-            android:text="Rechazar solicitud de inscripcion a equipo"
-            android:id="@+id/botonRechazarSolicitud"/>
-
+            android:layout_marginBottom="16dp"
+            android:id="@+id/botonAceptarRechazoInscripcion"
+            android:text="Enviar"/>
         <Button
-            android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/accent"
-            android:text="Armar fixture del torneo"
-            android:id="@+id/botonGenerarFixture"/>
-
+            android:id="@+id/botonCancelarRechazoInscripcion"
+            android:text="Cancelar"/>
     </LinearLayout>
 </RelativeLayout>
-
